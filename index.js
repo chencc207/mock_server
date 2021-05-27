@@ -3,9 +3,6 @@ const express = require('express')
 const app = express()
 const hostile = require('./router/hostile.js')
 
-// strategic/hostile/ShopGoodsInfo/getList
-// controller/strategic/hostile/ShopGoodsCollection/getGoodsShop
-
 // 解决跨域
 //设置跨域访问
 app.all('*', function(req, res, next) {
